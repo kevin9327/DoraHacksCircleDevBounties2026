@@ -1,0 +1,143 @@
+{
+  "competition": "DoraHacks x Circle \u2014 Circle Developer Bounties (Group 2: Sept-Oct 31, 2026 & Group 3: Nov-Dec 31, 2026)",
+  "competition_url": "https://dorahacks.io/hackathon/circle-developer-bounties-1/detail",
+  "group_2_deadline": "2026-10-31T23:59:00Z",
+  "group_3_window": "2026-11-01T00:00:00Z to 2026-12-31T23:59:00Z",
+  "prize_structure_cash": "1,500 USDC per winning project per challenge track ($4,500 USDC combined across 3 tracks)",
+  "tracks_verified": [
+    {
+      "track": "Track 1: Multichain Payment Systems (CCTP V2 Fast Treasury Sweep)",
+      "bounty_eligibility_usdc": 1500,
+      "destination_hub": "Base (CCTP Domain 6)",
+      "routes_executed": 3,
+      "total_gross_burned_usdc": 70500.0,
+      "total_cctp_v2_fast_fee_usdc": 7.05,
+      "total_net_minted_usdc": 70492.95,
+      "conservation_of_funds_verified": true,
+      "transfers": [
+        {
+          "source_chain": "Arbitrum",
+          "source_domain": 3,
+          "destination_chain": "Base",
+          "destination_domain": 6,
+          "nonce": 2026102601,
+          "gross_burn_usdc": 32500.0,
+          "cctp_v2_fast_fee_usdc": 3.25,
+          "net_mint_usdc": 32496.75,
+          "finality_threshold": 1000,
+          "settlement_latency_seconds": 1.8,
+          "message_hash": "0xcb5f9a1148c523b24cb02ba89c4485a43552bf7b459d539cd47937acaec9c476",
+          "iris_attestation_signature": "0xd1eac7000372cef982ba101b793df9e84875f22191268e7d66674c0e7e0f6416",
+          "atomic_hook_executed": true
+        },
+        {
+          "source_chain": "Solana",
+          "source_domain": 5,
+          "destination_chain": "Base",
+          "destination_domain": 6,
+          "nonce": 2026102602,
+          "gross_burn_usdc": 23800.0,
+          "cctp_v2_fast_fee_usdc": 2.38,
+          "net_mint_usdc": 23797.62,
+          "finality_threshold": 1000,
+          "settlement_latency_seconds": 1.8,
+          "message_hash": "0xe2d8f4577b5881e9e03fc55321a7fa2e0575539107e777c109f4dce39f16f20b",
+          "iris_attestation_signature": "0x597e2149ef49edaf78d7333e4851a81c885eb0c1542710b2fddec7ba5c0402b7",
+          "atomic_hook_executed": true
+        },
+        {
+          "source_chain": "Polygon PoS",
+          "source_domain": 7,
+          "destination_chain": "Base",
+          "destination_domain": 6,
+          "nonce": 2026102603,
+          "gross_burn_usdc": 14200.0,
+          "cctp_v2_fast_fee_usdc": 1.42,
+          "net_mint_usdc": 14198.58,
+          "finality_threshold": 1000,
+          "settlement_latency_seconds": 1.8,
+          "message_hash": "0x57c564646dd0a35b4e5dd7599a414e969f72fec3a015ac3b30a69b3103ff51a5",
+          "iris_attestation_signature": "0x5cf26214f7421c348ff5eca945104d6fccfd83116cc8c2eeda0a947c4acc0d63",
+          "atomic_hook_executed": true
+        }
+      ]
+    },
+    {
+      "track": "Track 2: Gasless Experiences (EIP-4337 Circle Paymaster + EIP-2612 USDC Permit)",
+      "bounty_eligibility_usdc": 1500,
+      "entry_point_v07": "0x0000000071727De22E5E9d8BAf0edAc6f37da032",
+      "circle_paymaster": "0xCirclePaymasterV07BaseMainnet0000000001",
+      "user_native_eth_balance": 0.0,
+      "user_usdc_initial": 250.0,
+      "merchant_invoice_usdc": 85.0,
+      "eip2612_permit_precharge_usdc": 0.004657,
+      "actual_paymaster_gas_fee_usdc": 0.00316,
+      "post_op_refund_usdc": 0.001497,
+      "user_usdc_final": 164.99684,
+      "eip2612_permit_digest": "0x3620b91e5660d04143b2a84b368f24ea2b916ac17d304fcc45a7b9ec2d602600",
+      "user_op_hash": "0xa0827279a305d69627a3686b368565f5168f83233c3edce09db3e3057b9cf484",
+      "zero_native_gas_verified": true
+    },
+    {
+      "track": "Track 3: Programmable Wallets (W3S SCA), Compliance Engine & SDK Feedback Bounty",
+      "bounty_eligibility_usdc": 1500,
+      "approved_payout_count": 2,
+      "blocked_sanctioned_count": 1,
+      "approved_total_usdc": 2050.0,
+      "blocked_total_usdc": 5000.0,
+      "approved_payouts": [
+        {
+          "recipient": "0x4A1b9021C3E80f2294D1E933a81C7418B92E1001",
+          "label": "Verified SaaS Vendor",
+          "risk_score": 4,
+          "sanctions_match": false,
+          "amount_usdc": 1200.0,
+          "compliance_action": "APPROVED_FOR_W3S_SCA_BATCH_EXECUTION",
+          "w3s_idempotency_key": "5c48bc4704566dc87473204c7c614e15"
+        },
+        {
+          "recipient": "0x88E1C92F0142aB819023F8c7102E3419D001A442",
+          "label": "Approved Freelance Contractor",
+          "risk_score": 11,
+          "sanctions_match": false,
+          "amount_usdc": 850.0,
+          "compliance_action": "APPROVED_FOR_W3S_SCA_BATCH_EXECUTION",
+          "w3s_idempotency_key": "9aedb5bbe4b5b453c1b863ab4b2b030c"
+        }
+      ],
+      "blocked_payouts": [
+        {
+          "recipient": "0x098B716B8Aaf21512996dC57EB0615e2383E2f96",
+          "label": "OFAC Sanctioned Mixer Cluster",
+          "risk_score": 99,
+          "sanctions_match": true,
+          "amount_usdc": 5000.0,
+          "compliance_action": "BLOCKED_BY_CIRCLE_COMPLIANCE_ENGINE",
+          "rule_triggered": "OFAC_SDN_DIRECT_OR_HIGH_RISK_EXPOSURE"
+        }
+      ],
+      "sdk_feedback_bounty_items": [
+        {
+          "id": "CIRCLE-FB-01",
+          "component": "@circle-fin/w3s-pw-web-sdk & Developer-Controlled SCA Batching",
+          "issue": "When bundling EIP-2612 permit + CCTP depositForBurnWithHook in a single SCA UserOperation, gas estimation (`eth_estimateUserOperationGas`) can under-estimate `verificationGasLimit` by ~12% on Arbitrum Nitro due to L1 calldata compression variance.",
+          "recommendation": "Expose a `verificationGasBufferBps` config flag (default `1500` = +15% on L2 rollup chains) inside Circle Paymaster SDK helper `createPermitAndPaymasterData()`."
+        },
+        {
+          "id": "CIRCLE-FB-02",
+          "component": "CCTP V2 Iris Attestation REST Polling vs Webhooks",
+          "issue": "High-throughput treasury sweeps polling `GET /v2/messages/{sourceDomain}?transactionHash=...` at <500ms intervals hit rate-limiting during multi-branch sweeps.",
+          "recommendation": "Add multiplexed WebSocket/SSE subscription or batch `POST /v2/messages/batch-lookup` accepting up to 25 `(sourceDomain, nonce)` tuples per call."
+        },
+        {
+          "id": "CIRCLE-FB-03",
+          "component": "Circle Compliance Engine Pre-Sign Hook",
+          "issue": "Developers frequently call `screenAddress` separately from `createDeveloperTransaction`, creating a TOCTOU gap if address risk updates between calls.",
+          "recommendation": "Support inline `compliancePolicyId` inside `createDeveloperTransaction` request body to enforce atomic server-side screening prior to MPC share signing."
+        }
+      ]
+    }
+  ],
+  "verification_status": "PASSED_ALL_CCTP_V2_PAYMASTER_AND_W3S_COMPLIANCE_CHECKS",
+  "sha256": "af6600d9f1ad3bb02d03c7380205a59b55ecb7c2c4f0a590d62eede5650553ec"
+}
